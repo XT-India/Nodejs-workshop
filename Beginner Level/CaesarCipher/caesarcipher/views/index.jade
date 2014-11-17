@@ -1,0 +1,19 @@
+h1 Node.js Workshop Demo
+
+form(method="post",action="uppercase")
+ div.padding20
+  span Enter a value : 
+  input#tempBox(type=text)
+  input#caesarText(type="hidden",name="caesarText")
+  input#btnGo(class="btn-danger",type="submit",value="GO!!")
+script(src='javascripts/cipherUtil.js')
+script(type='text/javascript').
+ var btngo = document.getElementById('btnGo');
+ btngo.onclick = function(){
+   var originalVal = document.getElementById('tempBox').value;
+   //ciphering the input
+   var ciphVal = Cipher(originalVal);
+   console.log("ciphVal : "+ciphVal)
+   document.getElementById('caesarText').value = ciphVal;
+ };
+	

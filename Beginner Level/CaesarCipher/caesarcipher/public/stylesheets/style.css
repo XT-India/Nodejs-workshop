@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/nodejsWallpaper.png');
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+	color:#95250b !important;
+	font:55px "Braggadocio" !important;	
+}
+
+span,.responseServer{
+	color:#fff;
+	font: 30px "Herculanum";
+}
+
+.padding20{
+	padding-top: 50px;
+}

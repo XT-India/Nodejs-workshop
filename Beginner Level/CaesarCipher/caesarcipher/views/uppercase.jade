@@ -1,0 +1,17 @@
+p.responseServer Response from the Server : #{responseStr}
+span Processed Value : 
+input#decipheredStr
+input#btnDecipher(class="btn-success",type="button",value="Decipher")
+script(src='javascripts/cipherUtil.js')
+script.
+  var btnDecipher = document.getElementById('btnDecipher');
+   btnDecipher.onclick=function(){
+   	 var str = '#{responseStr}';
+   	 if(isCipher(str) == 1){
+   	  var responseString = Decipher(str);
+   	  var decipherField = document.getElementById('decipheredStr');
+   	  decipherField.value = responseString;
+   	  console.log("deciphered str from the uppercase.jade :"+responseString);
+   	}
+   };
+ 

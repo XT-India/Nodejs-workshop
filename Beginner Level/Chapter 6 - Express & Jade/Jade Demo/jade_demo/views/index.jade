@@ -1,0 +1,11 @@
+h1= title
+//p Welcome to "#{book.name}" for "#{book.price}"
+- console.log(books);
+select#selectBooks
+	each book, i in books
+		option(value=i) #{book}
+
+ul
+	for book in books
+		li= book.name + book.price
+

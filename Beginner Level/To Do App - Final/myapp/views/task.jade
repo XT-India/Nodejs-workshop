@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  #form
+    input(id="new-todo",placeholder="Enter the task")
+    button#btnAddTask(class="add")
+      i(class="fa fa-plus-square")
+
+    button#btnClearTask(class="destroy")
+      i(class="fa fa-trash")
+  ul#todolist
+    
