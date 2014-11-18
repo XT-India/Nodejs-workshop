@@ -11,12 +11,12 @@ var Todo = {
 		var btnAddTask = document.getElementById('btnAddTask');
 		btnAddTask.onclick = function(){
 			Todo.addItem();
-		});
+		};
 
 		var btnClearTask = document.getElementById('btnClearTask');
 		btnClearTask.onclick = function(){
 			Todo.clearItem();
-		});
+		};
 	},
 	showItem:function(){
 		var currentTasks = localStorage.getItem('tasks');
