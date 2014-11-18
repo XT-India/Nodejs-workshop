@@ -8,15 +8,13 @@ var Todo = {
 		Todo.showItem();
 	},
 	attachEvents:function(){
-		var btnAddTask = document.getElementById('btnAddTask');
-		btnAddTask.onclick = function(){
+		$("#btnAddTask").on("click",function(){
 			Todo.addItem();
-		};
+		});
 
-		var btnClearTask = document.getElementById('btnClearTask');
-		btnClearTask.onclick = function(){
+		$("#btnClearTask").on("click",function(){
 			Todo.clearItem();
-		};
+		});
 	},
 	showItem:function(){
 		var currentTasks = localStorage.getItem('tasks');
