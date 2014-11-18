@@ -45,7 +45,7 @@ app.listen(3000, function(){
 </pre>
 
 <h4>Jade Configuration</h4>
-//setting the view engine as Jade
 <pre>
+ //Setting the view engine as Jade
  app.set('view engine', 'jade');
 </pre>
