@@ -8,11 +8,13 @@ var Todo = {
 		Todo.showItem();
 	},
 	attachEvents:function(){
-		$("#btnAddTask").on("click",function(){
+		var btnAddTask = document.getElementById('btnAddTask');
+		btnAddTask.onclick = function(){
 			Todo.addItem();
 		});
 
-		$("#btnClearTask").on("click",function(){
+		var btnClearTask = document.getElementById('btnClearTask');
+		btnClearTask.onclick = function(){
 			Todo.clearItem();
 		});
 	},
