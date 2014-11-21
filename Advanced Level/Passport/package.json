@@ -1,0 +1,20 @@
+{
+  "name": "NodeJS-AdvancedPackage",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "cookie-parser": "^1.0.1",
+    "cookie-session": "^1.0.1",
+    "express": "^4.1.1",
+    "express-session": "^1.0.4",
+    "jade": "^1.6.0",
+    "method-override": "^1.0.0",
+    "passport": "^0.2.0",
+    "passport-google": "^0.3.0",
+    "passport-facebook": "^1.0.3",
+    "passport-local": "^1.0.0"
+  }
+}
