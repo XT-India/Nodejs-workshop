@@ -3,10 +3,10 @@ var path = require('path');
 
 
 //Write a file
-/*fs.writeFile('results.txt', 'Hello World', function(err) {
+fs.writeFile('results.txt', 'Testing FS module', function(err) {
   if(err) throw err;
   console.log('File write completed');
-});*/
+});
 
 
 // Read a file
@@ -16,10 +16,11 @@ var path = require('path');
 });*/
 
 // Delete a file
-/*fs.unlink('sample/test.jpg', function (err) {
+/*fs.unlink('results.txt', function (err) {
   if (err) throw err;
   console.log('successfully deleted the file');
-});*/
+});
+*/
 
 
 // Rename a file
@@ -80,9 +81,9 @@ file.on('end', function() {
 });*/
 
 
-var file = fs.createReadStream('html/a.html', {flags: 'r'} );
+/*var file = fs.createReadStream('html/a.html', {flags: 'r'} );
 var out = fs.createWriteStream('html/sample.txt', {flags: 'w'});
-file.pipe(out);
+file.pipe(out);*/
 
 
 // A simple exercise
