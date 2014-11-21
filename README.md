@@ -25,12 +25,12 @@
   
   <h3>Expert Level</h3>
   <ol>
-    <li>MongoDB</li>
-    <li>MongoDB Installation</li>
-    <li>Bringout modularity</li>
-    <li>Writing maintainable and reusable code</li>
-    <li>Providing encapsulation</li>
-    <li>Clustering Node</li>
+    <li>NoSql Databases & MongoDB</li>
+    <li>Mongo DB Installation</li>
+    <li>Mongo DB operations</li>
+    <li>Node.js with Mongo DB</li>
     <li>Integrating the Sample ToDo App to work with Mongo DB</li>
+    <li>Performance & Load handling using Node Cluster</li>
+    
   </ol>
   
