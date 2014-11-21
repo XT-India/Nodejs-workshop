@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+.nodejsimg{
+  background: url('../../images/nodejs.png')  bottom no-repeat;
+  height: 400px;
+}
+
+a {
+  color: blue;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p{
+	color:green;
+	font:bold 16px Helvetica,Arial;
+}
+
+h1{
+	color:#000;	
+}
+
+.node-js{
+	background-repeat: no-repeat;
+}
