@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    h1= title
+    #form
+        form(action='/task', method='post')
+            input(id="new-todo",name="name" , placeholder="Enter the task")
+            button#btnAddTask(class="add" , type="submit")
+                i(class="fa fa-plus-square")
+
+    ul#todolist
+        each task, index in tasks
+            li
+                span=task.name
+                button#btnClearTask(class="destroy")
+                i(class="fa fa-trash delete" , data-task-id=task._id.toString())
+
+
+
+
