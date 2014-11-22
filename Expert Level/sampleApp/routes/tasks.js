@@ -1,6 +1,6 @@
 
 /*
- * GET users listing.
+ * GET task listing.
  */
 var tasks = {};
 tasks.list = function(req, res, next){
