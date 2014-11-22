@@ -10,7 +10,7 @@ var https = require('https');
 var http = require('http');
 var fs = require('fs');
  
-//var options = { key: fs.readFileSync('server.key'), cert: fs.readFileSync('server.crt') }; 
+var options = { key: fs.readFileSync('server.key'), cert: fs.readFileSync('server.crt') }; 
 var config = require('./config.json');
 
 app.use(bodyParser.urlencoded({
@@ -37,4 +37,4 @@ require("./routes")(app);
 // Create an HTTP service.
 http.createServer(app).listen(3000);
 // Create an HTTPS service identical to the HTTP service.
-//https.createServer(options, app).listen(9090);
+https.createServer(options, app).listen(9090);
