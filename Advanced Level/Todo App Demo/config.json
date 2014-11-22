@@ -1,0 +1,21 @@
+{
+  "express": {
+    "sessions": {
+      "key": "sid",
+      "secret": "changeme",
+      "cookie": {
+        "httpOnly": true,
+        "secure": false
+      }
+    }
+  },
+  "passport" : {	
+	"returnUrl" : "http://localhost:3000/",	
+	"google" : {		
+	},	
+	"facebook" : {
+		"clientID": "405082886296365",
+		"clientSecret": "0fb53e6470aa5c14ceedd123b2f8cbb5"
+	}  
+  }
+}

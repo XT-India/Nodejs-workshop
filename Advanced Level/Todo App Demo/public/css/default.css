@@ -1,0 +1,134 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+/** Site Generic styles **/
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #999;
+}
+a {
+	color: #47a3da;
+	text-decoration: none;	
+}
+a:hover {
+	color: #D81B22;
+}
+nav a {
+	font-size: 160%;
+}
+.main,
+.container > header {
+	width: 760px;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 4em 3.125em 6em;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.main p {
+	font-size: 140%;
+}
+.main h2 {
+	font-size: 300%;
+	font-weight: 300;
+	border-bottom: 1px solid #f8f8f8;
+	text-align: left;
+}
+
+.container > header {
+	padding: 4em 4em 2em 6em;
+}
+
+/* social icons**/
+.icon {
+	width:64px;
+	height:64px;
+	display:inline-block;
+	border:0;
+	opacity:0.6;
+	margin:2em 1em 0 0;
+}
+.icon:hover,.icon:active {
+	opacity:1;	
+}
+.icon.google {
+	background : url(/images/google-64.png) #FFF 0 0 no-repeat;
+}
+.icon.fb {
+	background : url(/images/fb-64.png) #FFF 0 0 no-repeat;
+}
+.icon.tw {
+	background : url(/images/tw-64.png) #FFF 0 0 no-repeat;
+}
+.icon.linkedin {
+	background : url(/images/ln-64.png) #FFF 0 0 no-repeat;
+}
+.icon .fa {
+	font-size: 4em;
+	color:#47a3da;
+	cursor:pointer;
+}
+
+
+/* To Do List page*/
+#new-todo,.input-login {
+	margin-top:40px;
+	width:400px;
+	border: 1px solid #f6f6f6;
+	padding:10px;
+	font-size: 180%;
+	font-weight: 300;
+	line-height: 1.5;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+button.add,button.destroy,button.toggle {
+	border: 0;
+	padding:10px;
+	font-size: 140%;
+	line-height: 1.5;
+	margin-left:30px;
+	background:#FFF;
+	cursor:pointer;
+	width:42px;
+}
+button.toggle {
+	margin-left:0;
+}
+button.add:hover,button.destroy:hover,button.toggle:hover {
+	color:#D81B22;
+	font-size: 150%;
+}
+span.view {
+	width:359px;
+	display:inline-block;
+	font-size: 180%;
+}
+.completed {
+	text-decoration: line-through;
+}
+#todolist{
+	margin-top:40px;
+	list-style:none;
+	padding:0;
+}
+#todolist li {
+border-bottom: 1px solid #f8f8f8;
+}

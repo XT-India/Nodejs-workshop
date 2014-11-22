@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	p Authenticated via: #{user.provider}
+	- if (user.provider == "Google")
+		p Email: #{user.emails[0].value}
+		p Family Name: #{user.name.familyName}
+		p Given Name: #{user.name.givenName}
+	- if (user.provider == "Facebook")
+		p Display Name: #{user.displayName}
+		p Gender: #{user.gender}
+		p Profile URL: 
+			a(href="#{user.profileUrl}") #{user.displayName}
+	- if (user.provider == "Local")
+		p Display Name: #{user.displayName}		
