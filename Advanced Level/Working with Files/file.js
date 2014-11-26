@@ -3,10 +3,16 @@ var path = require('path');
 
 
 //Write a file
-fs.writeFile('results.txt', 'Testing FS module', function(err) {
+/*fs.writeFile('html/results.txt', 'Testing FS module', function(err) {
   if(err) throw err;
   console.log('File write completed');
-});
+});*/
+
+/*fs.exists('/etc/hshsh', function (exists) {
+  console.log(exists ? "it's there" : "no passwd!");
+});*/
+
+console.log(path.basename('/etc/designs/nodejs/file.html'));
 
 
 // Read a file
@@ -24,11 +30,18 @@ fs.writeFile('results.txt', 'Testing FS module', function(err) {
 
 
 // Rename a file
-/*fs.rename('sample/IMG_20141022_184619.jpg', 'sample/photo.jpg', function (err) {
+/*fs.rename('results.txt', 'prasanna.txt', function (err) {
   if (err) throw err;
   console.log('renamed complete');
 });*/
 
+
+//Create a directory
+
+/*fs.mkdir('sample/test/', 0777, function(err) {
+  if(err) throw err;
+  console.log('Created newdir');
+});*/
 
 // Working with directories - Read a Directory
 /*var path = 'sample/';
@@ -42,23 +55,18 @@ fs.readdir(path, function (err, files) {
   });
 });*/
 
-//Create a directory
 
-/*fs.mkdir('newdir', 0777, function(err) {
-  if(err) throw err;
-  console.log('Created newdir');
-});*/
 
 // Remove a directory
-/*
-fs.rmdir('./newdir', function(err) {
+
+/*fs.rmdir('sample', function(err) {
     if(err) throw err;
     console.log('Removed newdir');
-});
-*/
+});*/
+
 
 // Write a Json file
-/*fs.writeFile('newdir/test.json', '{"key": "value"}', function(error){
+/*fs.writeFile('html/test.json', '{"key": "value"}', function(error){
   if(err) throw err;
   console.log('File write completed');
 });*/
@@ -93,7 +101,5 @@ file.pipe(out);*/
 });
 
 function scanFile(contents) {
-    if (contents.indexOf('img') !== -1) {
-         console.log('image found');
-    }
+    // write your logic
 }*/
