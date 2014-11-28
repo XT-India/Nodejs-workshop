@@ -1,0 +1,23 @@
+Prerequisites for the NodeJs Workshop :
+
+- Beginner Session
+
+1. Nodejs
+
+Windows : Go to node.js official site (http://nodejs.org/download/) and download Windows installer(.msi installer), then execute the installer. 
+Macintosh : Go to node.js official site (http://nodejs.org/download/) and download Mac installer(.pkg installer), then execute the installer. 
+
+2. Express : npm gets installed with node.So, we are going to install express through npm.
+
+Just run the following command :
+Windows : npm install -g express-generator
+Mac : sudo npm install -g express-generator
+
+- Expert Session
+
+1. Mongo DB
+
+Download the respective OS installer from the below link :
+http://www.mongodb.org/downloads?_ga=1.170962976.125353923.1415088247
+
+We will install the softwares on the day of the workshop as well if you guys face any issues.
