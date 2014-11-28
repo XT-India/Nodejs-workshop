@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	#login
+		form(action="/auth/local",method="post")
+			- if (error)
+				div #{error}
+				
+			div
+				input(type="text",name="username",class="input-login",placeholder="Username")
+			div
+				input(type="password",name="password",class="input-login",placeholder="Password")
+			div
+				button(type="submit",class="icon")
+					i(class="fa fa-sign-in")
+			div
+				a(href="/auth/google",class="icon google",title="google sign in") &nbsp;
+				a(href="/auth/facebook",class="icon fb",title="facebook sign in") &nbsp;	
