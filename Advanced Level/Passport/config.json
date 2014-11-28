@@ -14,8 +14,8 @@
 	"google" : {		
 	},	
 	"facebook" : {
-		"clientID": "", // Please update the values properly
-		"clientSecret": "" // Please update the values properly
+		"clientID": "405082886296365",
+		"clientSecret": "0fb53e6470aa5c14ceedd123b2f8cbb5"
 	}  
   }
 }
