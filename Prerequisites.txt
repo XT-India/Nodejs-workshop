@@ -20,4 +20,17 @@ Mac : sudo npm install -g express-generator
 Download the respective OS installer from the below link :
 http://www.mongodb.org/downloads?_ga=1.170962976.125353923.1415088247
 
+Steps to Install Mongo DB : 
+
+Lets sudo first so that we are the admin
+cd to the mongodb folder - make sure we are in harddisk
+create a folder data and then a folder db inside it
+cd to the bin folder inside the mongodb
+Then run ./mongod for mac or mongod for windows
+Keep this tab running and open a new tab - 
+In the new tab : run ./mongo for mac and mongo for windows
+
+In the mongo prompt, run show dbs and it will list the default dbs!!
+
+
 We will install the softwares on the day of the workshop as well if you guys face any issues.
