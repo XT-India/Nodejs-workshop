@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+	head
+		title passport demo app
+		link(rel="stylesheet",type="text/css",href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
+		link(rel="stylesheet",type="text/css",href="/css/default.css")
+	body
+		.container
+			header
+				nav
+					- if (!user)
+						a(href="/") Home &nbsp;|&nbsp; 
+						a(href="/login") Login			
+					- else
+						a(href="/") Home &nbsp;|&nbsp;  
+						a(href="/account") Account &nbsp;|&nbsp;  
+						a(href="/lists") To Do &nbsp;|&nbsp; 
+						a(href="/logout") Log Out
+			.main
+				block content
