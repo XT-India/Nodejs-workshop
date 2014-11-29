@@ -1,0 +1,11 @@
+{
+  "name": "Scoketiov4",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "socket.io": "*",
+    "express": "*",
+    "ejs": "*"
+  }
+
+}
