@@ -1,4 +1,4 @@
-Prerequisites for the NodeJs Workshop :
+Prerequisites for the NodeJs Workshop ::
 
 - Beginner Session
 
