@@ -6,7 +6,7 @@
     <li>Installation to Mongo DB</li>
     <li>Mongo DB operations</li>
     <li>Node.js with Mongo DB</li>
-    <li>Socket.io & live pingpong game application</li>
+    <li>Socket.io & example with live pingpong game</li>
     <li>Performance & handling Load using Clusters</li>
     <li>Integrating the Sample ToDo App to work with Mongo DB</li>
   </ol>
