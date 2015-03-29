@@ -30,6 +30,7 @@
     <li>Mongo DB operations</li>
     <li>Node.js with Mongo DB</li>
     <li>Integrating the Sample ToDo App to work with Mongo DB</li>
+    <li>Socket.io & example with live pingpong game</li>
     <li>Performance & Load handling using Node Cluster</li>
     
   </ol>
