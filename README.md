@@ -5,7 +5,7 @@
 					               (o o)
 					+~~~~~~~~~ooO~~~(_)~~~~~~~~~~~~~+
 					|                               |
-					| <h2>Sapient Node Workshop</h2>|
+					|     Sapient Node Workshop     |
 					|                               |
 					+~~~~~~~~~~~~~~~~~~~~~~Ooo~~~~~~+
 					              |__|__|
